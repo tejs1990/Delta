@@ -1,0 +1,7 @@
+1) Error capture and handeling of service calls
+2) Memory Leaks - Api calls are not unscribed
+3) Reactive forms not implimented as mentioned in comments
+		 <!-- TODO: JD - Refactor to reactive form next sprint -->
+	 this might be required to handle different scenarios.
+4) UserDashboardComponent - constructor() - with window.DEBUG = this; // Our company debug helper
+		This might throw some issue or data expose in live application
